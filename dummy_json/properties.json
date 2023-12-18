@@ -1,0 +1,26 @@
+{
+  "properties": [
+    {
+      "id": 1,
+      "name": "Appartment",
+      "rent_type": "Sell",
+      "type": "Appartment",
+      "price": "150",
+      "location": "123 Street, New York, USA",
+      "size": "1000",
+      "bed": "2",
+      "bath": "2"
+    },
+    {
+      "id": 1,
+      "name": "Flat",
+      "rent_type": "Rent",
+      "type": "Villa",
+      "price": "150",
+      "location": "196 Street, Sidny, USA",
+      "size": "1000",
+      "bed": "2",
+      "bath": "2"
+    }
+  ]
+}

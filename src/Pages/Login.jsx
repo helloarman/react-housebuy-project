@@ -26,6 +26,7 @@ function Login() {
   const loginUser = (e) => {
     e.preventDefault();
 
+    localStorage.setItem("login", "true");
     createUserWithEmailAndPassword(auth, email, password).then(
       (userCredentials) => {
         console.log(userCredentials);
